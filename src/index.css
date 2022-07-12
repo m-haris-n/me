@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .wrapper {
+    @apply w-full h-auto flex items-center justify-center bg-gradient-to-r from-neutral-900 to-black;
+  }
+
+  .my-container {
+    @apply w-4/5 mx-auto h-auto;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-r from-neutral-900 to-black;
+  }
+
+  /* Typography */
+
+  .heading {
+    @apply font-heading font-bold text-[50px] text-white;
+  }
+
+  .sub-heading-l {
+    @apply font-heading font-medium text-[40px] text-white;
+  }
+
+  .sub-heading-med-m {
+    @apply font-heading font-medium text-[30px] text-white;
+  }
+  .sub-heading-bold-m {
+    @apply font-heading font-bold text-[30px] text-white;
+  }
+
+  .text-body-reg-l {
+    @apply font-heading font-normal text-[22px] text-white;
+  }
+
+  .text-body-light-l {
+    @apply font-heading font-light text-[22px] text-white;
+  }
+  .text-body-reg-m {
+    @apply font-heading font-normal text-[20px] text-white;
+  }
+  .text-body-med-m {
+    @apply font-heading font-medium text-[20px] text-white;
+  }
+
+  .text-body-light-m {
+    @apply font-heading font-light text-[20px] text-white;
+  }
+}

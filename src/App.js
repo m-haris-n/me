@@ -1,11 +1,12 @@
-
-import './App.css';
+import Wrapper from "./components/UI/Containers/Wrapper";
+import Navbar from "./components/Navbar";
+import React from "react";
 
 function App() {
   return (
-    <div className="w-screen h-auto bg-gradient-to-r from-black">
-      <div className='w-3/6 h-3/6 bg-slate-900'></div>
-    </div>
+    <Wrapper classes="bg-gradient">
+      <Navbar />
+    </Wrapper>
   );
 }
 
