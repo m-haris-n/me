@@ -66,7 +66,7 @@
   /* Components */
 
   .my-btn {
-    @apply w-64 h-16 text-white btn-text border-[1px] rounded-full border-white mt-16;
+    @apply w-64 h-16 text-white btn-text border-[1px] rounded-full border-white mt-8;
     
   }
 }
