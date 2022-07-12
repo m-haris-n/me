@@ -3,50 +3,70 @@
 @tailwind utilities;
 
 @layer components {
+  /* Containers */
+
   .wrapper {
-    @apply w-full h-auto flex items-center justify-center bg-gradient-to-r from-neutral-900 to-black;
+    @apply w-full h-auto flex flex-col items-center justify-center bg-gradient-to-r from-neutral-900 to-black;
   }
 
   .my-container {
     @apply w-4/5 mx-auto h-auto;
   }
 
+  /* Colors & Gradients*/
+
   .bg-gradient {
-    @apply bg-gradient-to-r from-neutral-900 to-black;
+    @apply bg-gradient-to-r from-[#101010] to-black;
   }
 
   /* Typography */
 
   .heading {
-    @apply font-heading font-bold text-[50px] text-white;
+    @apply font-heading font-bold text-[40px] xl:text-[50px] text-white;
   }
 
   .sub-heading-l {
-    @apply font-heading font-medium text-[40px] text-white;
+    @apply font-heading font-medium text-[30px] xl:text-[35px] text-white;
   }
 
+  .sub-heading-reg-m {
+    @apply font-heading font-normal text-[26px]  md:text-[30px] text-white;
+  }
   .sub-heading-med-m {
-    @apply font-heading font-medium text-[30px] text-white;
+    @apply font-heading font-medium text-[26px]  md:text-[30px] text-white;
   }
   .sub-heading-bold-m {
-    @apply font-heading font-bold text-[30px] text-white;
-  }
-
-  .text-body-reg-l {
-    @apply font-heading font-normal text-[22px] text-white;
+    @apply font-heading font-bold text-[26px]  md:text-[30px] text-white;
   }
 
   .text-body-light-l {
-    @apply font-heading font-light text-[22px] text-white;
+    @apply font-heading font-light text-[18px]  md:text-[22px] text-white;
   }
-  .text-body-reg-m {
-    @apply font-heading font-normal text-[20px] text-white;
+  .text-body-reg-l {
+    @apply font-heading font-normal text-[18px]  md:text-[22px] text-white;
   }
-  .text-body-med-m {
-    @apply font-heading font-medium text-[20px] text-white;
+  .text-body-med-l {
+    @apply font-heading font-medium text-[18px]  md:text-[22px] text-white;
   }
 
   .text-body-light-m {
-    @apply font-heading font-light text-[20px] text-white;
+    @apply font-heading font-light text-[18px]  md:text-[20px] text-white;
+  }
+  .text-body-reg-m {
+    @apply font-heading font-normal text-[18px]  md:text-[20px] text-white;
+  }
+  .text-body-med-m {
+    @apply font-heading font-medium text-[18px]  md:text-[20px] text-white;
+  }
+
+  .btn-text {
+    @apply font-heading font-medium text-[22px] text-white;
+  }
+
+  /* Components */
+
+  .my-btn {
+    @apply w-64 h-16 text-white btn-text border-[1px] rounded-full border-white mt-16;
+    
   }
 }
