@@ -20,7 +20,7 @@ export default function SecondSection(props) {
           <div className="flex flex-col items-center md:items-end">
             <p className="heading text-center md:text-right">Get to know me</p>
             <div className="w-32 h-1 bg-white my-4"></div>
-            <p className="sub-heading-reg-m text-center md:text-right">
+            <p className="w-full text-body-med-l text-center md:text-right">
               I am a web engineering enthusiast. In 2020, I co-founded Citeous Technologies (Pvt.) Ltd. <br />
               Currently, I am a full stack web developer. <br /><br />
               I took a long path to get here. Wanna know more?

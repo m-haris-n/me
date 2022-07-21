@@ -12,9 +12,9 @@ export default function Navbar() {
         id="menu"
         className="flex flex-row lg:w-2/6 md:w-3/6 w-full justify-between"
       >
-        <a href="#" className="text-body-light-m hover:font-normal ">About</a>
-        <a href="#" className="text-body-light-m hover:font-normal">Portfolio</a>
-        <a href="#" className="text-body-light-m hover:font-normal">Contact</a>
+        <a href="#" className="text-body-light-m">About</a>
+        <a href="#" className="text-body-light-m">Portfolio</a>
+        <a href="#" className="text-body-light-m">Contact</a>
       </div>
     </Container>
   );

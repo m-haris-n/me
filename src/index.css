@@ -22,7 +22,7 @@
   /* Typography */
 
   .heading {
-    @apply font-heading font-bold text-[40px] xl:text-[50px] text-white;
+    @apply font-heading font-bold text-[35px] md:text-[40px] xl:text-[50px] text-white;
   }
 
   .sub-heading-l {
@@ -68,5 +68,17 @@
   .my-btn {
     @apply w-64 h-16 text-white btn-text border-[1px] rounded-full border-white mt-8;
     
+  }
+
+  .tech-logos {
+    @apply h-24 sm:h-28 md:h-32 flex flex-row justify-center items-center;
+  }
+
+  .project-card {
+    @apply  md:w-4/5 lg:w-72 xl:w-80 h-60 border-[2px] rounded-3xl border-white my-10;
+  }
+
+  .card-number {
+    @apply font-heading font-bold text-[70px] text-white;
   }
 }
