@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'heading': "'Ubuntu', sans-serif"
+      'heading': "'Ubuntu', sans-serif",
+      'sub': "'Inter', sans-serif",
     }
   },
   variants: {

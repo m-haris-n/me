@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <Container classes="my-3 md:my-0 h-20 flex lg:flex-row flex-col justify-between items-center absolute top-0">
       <div id="logo">
-        <p className="sub-heading-med-m">m-haris-n</p>
+        <p className="sub-heading-l">m-haris-n</p>
       </div>
       <div
         id="menu"
