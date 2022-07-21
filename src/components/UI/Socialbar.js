@@ -8,14 +8,14 @@ export default function Socialbar(props) {
     let colStyle;
     const direction = props.direction;
     if(direction === "col"){
-        colStyle = `flex-${direction} w-auto h-80`
+        colStyle = `hidden md:flex flex-${direction} w-auto h-80`
     }
     if(direction === "row"){
-        colStyle = `flex-${direction} w-80 h-auto`
+        colStyle = `flex flex-${direction} w-80 h-auto`
     }
 
   return (
-    <div className={`hidden md:flex ${colStyle} content-between justify-between`}>
+    <div className={`${colStyle}  content-between justify-between`}>
       <img src={githubIcon} alt="" width={`32px`} />
       <img src={dribbleIcon} alt="" width={`32px`}/>
       <img src={linkedinIcon} alt="" width={`32px`}/>

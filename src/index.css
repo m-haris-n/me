@@ -16,13 +16,13 @@
   /* Colors & Gradients*/
 
   .bg-gradient {
-    @apply bg-gradient-to-r from-[#101010] to-black;
+    @apply bg-gradient-to-r from-[#0a0a0a] to-black;
   }
 
   /* Typography */
 
   .heading {
-    @apply font-heading font-bold text-[35px] md:text-[40px] xl:text-[50px] text-white;
+    @apply font-heading font-medium text-[35px] md:text-[40px] xl:text-[50px] text-white;
   }
 
   .sub-heading-l {
@@ -69,6 +69,10 @@
     @apply w-64 h-16 text-white btn-text border-[1px] rounded-full border-white mt-8;
     
   }
+  .my-btn-submit {
+    @apply w-52 py-2 text-black btn-text border-[1px] rounded-full bg-white mt-8;
+    
+  }
 
   .tech-logos {
     @apply h-24 sm:h-28 md:h-32 flex flex-row justify-center items-center;
@@ -81,4 +85,12 @@
   .card-number {
     @apply font-heading font-bold text-[70px] text-white;
   }
+
+  .text-input {
+    @apply w-[300px] bg-transparent text-white text-[20px] outline-none border-[2px] border-white rounded-full px-5 py-2 m-2;
+  }
+  .text-area-input {
+    @apply w-[300px] sm:w-[610px] min-h-[300px] bg-transparent text-white text-[20px] outline-none border-[2px] border-white rounded-3xl px-5 py-2 m-2;
+  }
+
 }

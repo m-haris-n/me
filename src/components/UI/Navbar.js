@@ -7,7 +7,6 @@ export default function Navbar() {
       <div id="logo">
         <p className="sub-heading-med-m">m-haris-n</p>
       </div>
-      <p className="text-body-med-l my-5">/ * Under Construction * /</p>
       <div
         id="menu"
         className="flex flex-row lg:w-2/6 md:w-3/6 w-full justify-between"
