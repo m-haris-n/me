@@ -79,7 +79,7 @@
   }
 
   .project-card {
-    @apply  md:w-4/5 lg:w-72 xl:w-80 h-60 border-[2px] rounded-3xl border-white my-10;
+    @apply w-64 lg:w-72 xl:w-80 h-60 border-[2px] rounded-3xl border-white my-10;
   }
 
   .card-number {
@@ -87,10 +87,10 @@
   }
 
   .text-input {
-    @apply w-[300px] bg-transparent text-white text-[20px] outline-none border-[2px] border-white rounded-full px-5 py-2 m-2;
+    @apply w-[300px] lg:w-[400px] bg-transparent text-white text-[20px] outline-none border-[2px] border-white rounded-full px-5 py-2 m-2;
   }
   .text-area-input {
-    @apply w-[300px] sm:w-[610px] min-h-[300px] bg-transparent text-white text-[20px] outline-none border-[2px] border-white rounded-3xl px-5 py-2 m-2;
+    @apply w-[300px] sm:w-[610px] lg:w-[810px] min-h-[300px] bg-transparent text-white text-[20px] outline-none border-[2px] border-white rounded-3xl px-5 py-2 m-2;
   }
 
 }
