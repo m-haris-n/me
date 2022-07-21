@@ -16,10 +16,18 @@ export default function Socialbar(props) {
 
   return (
     <div className={`${colStyle}  content-between justify-between`}>
+      <a href="https://github.com/m-haris-n/" target="_blank">
       <img src={githubIcon} alt="" width={`32px`} />
+      </a>
+      <a href="https://dribbble.com/MHarisN" target="_blank">
       <img src={dribbleIcon} alt="" width={`32px`}/>
+      </a>
+      <a href="https://www.linkedin.com/in/mharisn/" target="_blank">
       <img src={linkedinIcon} alt="" width={`32px`}/>
+      </a>
+      <a href="https://www.instagram.com/harris_nabeel/" target="_blank">
       <img src={instagramIcon} alt="" width={`32px`}/>
+      </a>
     </div>
   )
 }
